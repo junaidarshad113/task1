@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Array from './components/arrays'
+import Lists from './components/ListOfThings'
+import Objects from './components/ObjectState'
+import Spread from './components/SpreadOperator'
+import Restoperator from './components/RestOperator'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Array />
+    <Lists />
+    <Objects />
+    <Spread />
+    <Restoperator />
+
     </div>
+    
   );
 }
 
